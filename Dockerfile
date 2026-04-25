@@ -4,8 +4,8 @@ FROM node:20-alpine AS build
 WORKDIR /app
 
 # Copy package files first for better cache
-COPY package.json package-lock.json ./
-RUN npm ci --silent
+COPY package.json package-lock.json* ./
+RUN npm install
 
 # Copy source and build
 COPY . .

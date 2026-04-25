@@ -5,7 +5,7 @@ const words = ["Quality", "Precision", "Automation", "Innovation", "Shreyansh"];
 
 export default function Preloader({ onComplete }) {
   const [index, setIndex] = useState(0);
-  const [dimension, setDimension] = useState({ width: window.innerWidth, height: window.innerHeight });
+  const [dimension] = useState({ width: window.innerWidth, height: window.innerHeight });
 
   useEffect(() => {
     if (index === words.length - 1) {

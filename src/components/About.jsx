@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import SectionHeading from "./ui/SectionHeading";
 import AnimatedCounter from "./ui/AnimatedCounter";
 import ScrollReveal from "./ui/ScrollReveal";
-import TechBadge from "./ui/TechBadge";
 
 const stats = [
   { end: 50, suffix: "+", label: "Test Cases" },

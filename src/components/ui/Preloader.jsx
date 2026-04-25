@@ -1,15 +1,13 @@
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const words = ["Quality", "Precision", "Automation", "Innovation", "Shreyansh"];
 
 export default function Preloader({ onComplete }) {
   const [index, setIndex] = useState(0);
-  const [dimension, setDimension] = useState({ width: 0, height: 0 });
+  const [dimension, setDimension] = useState({ width: window.innerWidth, height: window.innerHeight });
 
   useEffect(() => {
-    setDimension({ width: window.innerWidth, height: window.innerHeight });
-
     if (index === words.length - 1) {
       setTimeout(onComplete, 1000);
       return;

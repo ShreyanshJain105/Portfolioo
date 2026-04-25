@@ -1,11 +1,9 @@
-import { motion } from "framer-motion";
-import { useParams, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { 
   ArrowLeft, 
   ExternalLink, 
   CheckCircle2, 
   Server, 
-  Code, 
   Layers,
   Database
 } from "lucide-react";

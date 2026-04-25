@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Container, BookOpen } from "lucide-react";
 import { Link } from "react-router-dom";
 import SectionHeading from "./ui/SectionHeading";
 import ScrollReveal from "./ui/ScrollReveal";

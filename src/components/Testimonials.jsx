@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Quote, ChevronLeft, ChevronRight, Star } from "lucide-react";
+import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
 import SectionHeading from "./ui/SectionHeading";
 import ScrollReveal from "./ui/ScrollReveal";
 import { testimonials } from "../data/testimonials";

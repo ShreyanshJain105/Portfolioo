@@ -1,14 +1,10 @@
-import { motion } from "framer-motion";
 import { 
   ShieldCheck, 
-  Search, 
-  Terminal, 
   Cpu, 
   Database,
   ArrowRight,
   Code
 } from "lucide-react";
-import SectionHeading from "../components/ui/SectionHeading";
 import ScrollReveal from "../components/ui/ScrollReveal";
 
 const services = [

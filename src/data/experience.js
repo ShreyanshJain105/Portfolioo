@@ -1,0 +1,36 @@
+export const experiences = [
+  {
+    id: 1,
+    role: "Quality Assurance Testing Intern",
+    company: "Zeepty",
+    duration: "Mar 2026 – Present",
+    location: "Delhi, India",
+    type: "Internship",
+    highlights: [
+      "Designed 50+ test cases for functional, regression, and UI testing",
+      "Identified 30+ defects and tracked them using Jira bug tracking",
+      "Conducted regression testing across 5 release cycles",
+      "Improved overall product quality by 20% through systematic testing",
+      "Collaborated with development team in Agile/Scrum workflows",
+    ],
+    techStack: ["Selenium", "Jira", "Postman", "Chrome DevTools", "Manual Testing"],
+    current: true,
+  },
+  {
+    id: 2,
+    role: "Java Full-Stack Developer Intern",
+    company: "Zidio Development",
+    duration: "May 2025 – Aug 2025",
+    location: "Remote / Bengaluru",
+    type: "Internship",
+    highlights: [
+      "Developed REST APIs with Spring Boot for scalable backend services",
+      "Conducted manual & API testing using Postman and Chrome DevTools",
+      "Built responsive frontend components with React.js",
+      "Worked in Agile/Scrum environment with 2-week sprint cycles",
+      "Integrated MongoDB for data persistence and JWT for authentication",
+    ],
+    techStack: ["Java", "Spring Boot", "React.js", "MongoDB", "REST APIs", "Git"],
+    current: false,
+  },
+];

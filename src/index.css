@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Inter", system-ui, sans-serif;
+  --font-mono: "Fira Code", monospace;
+
+  /* Limitless Palette */
+  --color-primary-400: #a78bfa;
+  --color-primary-500: #8b5cf6;
+  --color-primary-600: #7c3aed;
+  --color-primary-700: #6d28d9;
+  
+  --color-bg-black: #000000;
+  --color-bg-card: #0a0a0a;
+  --color-border-subtle: #1a1a1a;
+  
+  --color-zinc-400: #a1a1aa;
+  --color-zinc-500: #71717a;
+  --color-zinc-800: #27272a;
+  --color-zinc-900: #18181b;
+
+  --animate-fade-in: fade-in 0.6s ease-out forwards;
+  --animate-slide-up: slide-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-float: float 6s ease-in-out infinite;
+}
+
+@layer base {
+  * {
+    @apply border-border-subtle outline-none;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    background-color: #000000;
+  }
+
+  body {
+    @apply bg-bg-black text-zinc-400 antialiased selection:bg-primary-600/30 selection:text-white cursor-none overflow-x-hidden;
+    font-family: var(--font-sans);
+  }
+
+  /* Fixed Noise Texture */
+  body::after {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.035;
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-[-0.05em] font-bold text-white leading-[1.1];
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-zinc-900/50 border border-white/5 shadow-[0_8px_32px_0_rgba(0,0,0,0.8)] backdrop-blur-md transition-all duration-700;
+  }
+  
+  .glass-card:hover {
+    @apply border-primary-500/30 shadow-[0_20px_50px_rgba(124,58,237,0.08)] bg-zinc-900/80;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-primary-500 font-extrabold tracking-[-0.06em];
+  }
+
+  .btn-primary {
+    @apply px-10 py-4 bg-primary-600 text-white font-bold rounded-full hover:bg-primary-500 transition-all duration-500 shadow-[0_0_20px_rgba(124,58,237,0.3)] hover:shadow-[0_0_40px_rgba(124,58,237,0.5)] hover:-translate-y-1 active:translate-y-0 cursor-pointer;
+  }
+
+  .btn-secondary {
+    @apply px-10 py-4 bg-transparent border border-white/10 text-white font-bold rounded-full hover:border-white/30 hover:bg-white/5 transition-all duration-500 cursor-pointer;
+  }
+
+  .gradient-mesh {
+    @apply bg-bg-black;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(124, 58, 237, 0.1) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(37, 99, 235, 0.05) 0px, transparent 50%),
+      radial-gradient(at 50% 100%, rgba(124, 58, 237, 0.05) 0px, transparent 50%);
+  }
+
+  .badge-limitless {
+    @apply px-5 py-1.5 rounded-full bg-zinc-900/50 border border-zinc-800 text-zinc-500 text-[10px] font-black uppercase tracking-[0.2em] transition-all;
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a1a1a;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #27272a;
+}

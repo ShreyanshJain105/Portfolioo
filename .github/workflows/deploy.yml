@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 env:
-  DOCKER_IMAGE: shreyansh105/portfolio
+  DOCKER_IMAGE: shreyanshjain032/portfolio
 
 jobs:
   # ──────────────────────────────────

@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'shreyansh105/portfolio'
+        DOCKER_IMAGE = 'shreyanshjain032/portfolio'
         DOCKER_CREDENTIALS_ID = 'dockerhub-credentials' 
     }
 

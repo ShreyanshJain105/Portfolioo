@@ -54,7 +54,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.8, ease: [0.23, 1, 0.32, 1] }}
-              className="text-6xl md:text-8xl lg:text-9xl font-black mb-10 leading-[0.85] tracking-[-0.06em] text-white"
+              className="text-5xl md:text-8xl lg:text-9xl font-black mb-10 leading-[0.85] tracking-[-0.06em] text-white"
             >
               Crafting <br />
               <span className="text-zinc-700">Digital</span> <br />

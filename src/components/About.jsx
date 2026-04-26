@@ -88,18 +88,18 @@ export default function About() {
 
         {/* Bento-style Stats */}
         <ScrollReveal>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
             {stats.map((stat) => (
               <motion.div
                 key={stat.label}
                 whileHover={{ y: -5 }}
-                className="glass-card p-12 text-center rounded-[3rem] border-white/5"
+                className="glass-card p-6 md:p-12 text-center rounded-[2rem] md:rounded-[3rem] border-white/5"
               >
                 <AnimatedCounter
                   end={stat.end}
                   suffix={stat.suffix}
                   label={stat.label}
-                  className="text-white font-black text-5xl tracking-tighter"
+                  className="tracking-tighter"
                 />
               </motion.div>
             ))}

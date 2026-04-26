@@ -31,13 +31,13 @@ export default function Projects() {
               <motion.div
                 whileHover={{ y: -10, rotateX: 2, rotateY: -2 }}
                 transition={springTransition}
-                className="glass-card h-full rounded-[3rem] overflow-hidden group relative flex flex-col border border-white/5 hover:border-primary-500/40"
+                className="glass-card h-full rounded-[2.5rem] md:rounded-[3rem] overflow-hidden group relative flex flex-col border border-white/5 hover:border-primary-500/40"
               >
                 {/* Background Visual */}
                 <div className={`absolute inset-0 bg-gradient-to-br ${project.gradient} opacity-10 grayscale group-hover:grayscale-0 group-hover:opacity-30 transition-all duration-1000`} />
                 <div className="absolute inset-0 bg-zinc-950/40" />
 
-                <div className="relative z-10 p-12 h-full flex flex-col">
+                <div className="relative z-10 p-8 md:p-12 h-full flex flex-col">
                   <div className="flex justify-between items-start mb-8">
                     <div className="flex flex-wrap gap-2">
                       {project.tech.slice(0, 2).map((t) => (
@@ -46,7 +46,7 @@ export default function Projects() {
                         </span>
                       ))}
                     </div>
-                    <div className="text-6xl font-black text-white/5 group-hover:text-primary-500/10 transition-colors">
+                    <div className="text-5xl md:text-6xl font-black text-white/10 group-hover:text-primary-500/20 transition-colors">
                       0{index + 1}
                     </div>
                   </div>

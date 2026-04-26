@@ -57,12 +57,12 @@ export default function Services() {
         <div className="grid md:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <ScrollReveal key={index} delay={index * 0.1}>
-              <div className="glass-card p-12 rounded-[3rem] border border-zinc-800 hover:border-primary-500/40 transition-all duration-700 group h-full flex flex-col">
+              <div className="glass-card p-8 md:p-12 rounded-[2.5rem] md:rounded-[3rem] border border-zinc-800 hover:border-primary-500/40 transition-all duration-700 group h-full flex flex-col">
                 <div className="mb-10 flex justify-between items-start">
                   <div className={`p-5 rounded-3xl bg-gradient-to-br ${service.color} border border-white/5`}>
                     <service.icon size={32} className="text-white" />
                   </div>
-                  <span className="text-4xl font-black text-white/5 group-hover:text-primary-500/20 transition-colors">
+                  <span className="text-4xl font-black text-white/10 group-hover:text-primary-500/20 transition-colors">
                     0{index + 1}
                   </span>
                 </div>

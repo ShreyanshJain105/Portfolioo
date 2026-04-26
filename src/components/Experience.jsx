@@ -41,8 +41,8 @@ export default function Experience() {
         <div className="max-w-4xl mx-auto">
           {experiences.map((exp, index) => (
             <ScrollReveal key={index} delay={index * 0.1}>
-              <div className="glass-card p-12 rounded-[3rem] border border-zinc-800 hover:border-primary-500/30 transition-all duration-700 group">
-                <div className="flex flex-col md:flex-row gap-10">
+              <div className="glass-card p-8 md:p-12 rounded-[2.5rem] md:rounded-[3rem] border border-zinc-800 hover:border-primary-500/30 transition-all duration-700 group">
+                <div className="flex flex-col md:flex-row gap-6 md:gap-10">
                   {/* Company Icon & Timeline */}
                   <div className="flex flex-col items-center">
                     <div className="p-6 rounded-[2rem] bg-zinc-900 border border-zinc-800 text-white mb-4 group-hover:bg-primary-600 transition-colors duration-500 shadow-xl shadow-black/40">

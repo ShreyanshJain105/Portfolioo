@@ -39,7 +39,7 @@ export default function Certifications() {
               <ScrollReveal key={cert.id} delay={index * 0.1}>
                 <motion.div
                   whileHover={{ y: -10 }}
-                  className="glass-card p-10 rounded-[2.5rem] text-center group cursor-default h-full border border-white/5 hover:border-primary-500/40 transition-all duration-500"
+                  className="glass-card p-8 md:p-10 rounded-[2rem] md:rounded-[2.5rem] text-center group cursor-default h-full border border-white/5 hover:border-primary-500/40 transition-all duration-500"
                 >
                   <div
                     className={`inline-flex p-5 rounded-[2rem] bg-zinc-900 border border-zinc-800 mb-8 group-hover:bg-primary-600 transition-colors duration-500`}
@@ -64,7 +64,7 @@ export default function Certifications() {
               <ScrollReveal key={ach.id} delay={index * 0.15}>
                 <motion.div
                   whileHover={{ y: -5 }}
-                  className="glass-card p-10 rounded-[2.5rem] flex items-center gap-8 group border border-white/5"
+                  className="glass-card p-8 md:p-10 rounded-[2rem] md:rounded-[2.5rem] flex items-center gap-6 md:gap-8 group border border-white/5"
                 >
                   <div
                     className={`flex-shrink-0 p-5 rounded-2xl bg-zinc-900 border border-zinc-800 group-hover:bg-primary-600 transition-colors duration-500 shadow-xl`}

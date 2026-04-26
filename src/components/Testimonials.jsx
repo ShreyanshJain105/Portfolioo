@@ -41,7 +41,7 @@ export default function Testimonials() {
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 exit={{ opacity: 0, scale: 0.95, y: -20 }}
                 transition={{ duration: 0.6, ease: [0.23, 1, 0.32, 1] }}
-                className="glass-card p-12 md:p-20 rounded-[4rem] text-center border border-white/5 shadow-2xl"
+                className="glass-card p-8 md:p-20 rounded-[3rem] md:rounded-[4rem] text-center border border-white/5 shadow-2xl"
               >
                 <div className="inline-flex p-6 rounded-[2rem] bg-zinc-900 border border-zinc-800 text-primary-500 mb-12 shadow-inner">
                   <Quote size={40} />

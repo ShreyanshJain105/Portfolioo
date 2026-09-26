@@ -1,0 +1,382 @@
+- generic [ref=e3]:
+  - navigation [ref=e10]:
+    - generic [ref=e12]:
+      - link "Shreyansh.dev" [ref=e13] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e14]:
+        - button "About" [ref=e15] [cursor=pointer]
+        - button "Skills" [ref=e16] [cursor=pointer]
+        - button "Experience" [ref=e17] [cursor=pointer]
+        - button "Projects" [ref=e18] [cursor=pointer]
+        - button "Services" [ref=e19] [cursor=pointer]
+        - button "Certifications" [ref=e20] [cursor=pointer]
+        - button "Education" [ref=e21] [cursor=pointer]
+        - button "Contact" [ref=e22] [cursor=pointer]
+  - main [ref=e23]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: Available for New Projects
+        - heading "Crafting Digital Precision." [level=1] [ref=e30]
+        - paragraph [ref=e31]: I'm Shreyansh, an engineer focused on Full-Stack Quality. Building resilient, high-performance systems for the next web.
+        - generic [ref=e32]:
+          - button "Explore Work" [ref=e33] [cursor=pointer]
+          - link "Get Resume" [ref=e34] [cursor=pointer]:
+            - /url: /resume.pdf
+        - generic [ref=e39]:
+          - link "LinkedIn" [ref=e40] [cursor=pointer]:
+            - /url: https://linkedin.com/in/shreyanshjain1206
+          - link "GitHub" [ref=e43] [cursor=pointer]:
+            - /url: https://github.com/ShreyanshJain105
+          - link "Twitter" [ref=e46] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e50]:
+        - img "Shreyansh Jain" [ref=e53]
+        - generic [ref=e62]:
+          - paragraph [ref=e63]: Status
+          - paragraph [ref=e64]: Engineering
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - paragraph [ref=e68]: Technical Narrative
+        - heading "Identity." [level=2] [ref=e69]
+      - generic [ref=e70]:
+        - generic [ref=e74]:
+          - generic [ref=e75]: 🚀
+          - paragraph [ref=e76]: <Architecture />
+        - generic [ref=e79]:
+          - heading "Engineering Reliability." [level=3] [ref=e80]
+          - generic [ref=e81]:
+            - paragraph [ref=e82]: Final year CS Engineer at Poornima University, obsessively refining the intersection of Quality and Code.
+            - paragraph [ref=e83]: As an Associate Quality Analyst at CRM Landing Software, I engineer robust validation suites and QA workflows that ensure mission-critical systems perform under pressure.
+            - paragraph [ref=e84]: My stack bridges the full lifecycle, from Java Spring Boot microservices to React.js interfaces, all containerized through Docker.
+          - generic [ref=e85]:
+            - generic [ref=e86]: Selenium
+            - generic [ref=e87]: Postman
+            - generic [ref=e88]: Jira
+            - generic [ref=e89]: Chrome DevTools
+            - generic [ref=e90]: Java
+            - generic [ref=e91]: JavaScript
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - generic [ref=e96]: 0+
+          - paragraph [ref=e97]: Test Cases
+        - generic [ref=e99]:
+          - generic [ref=e100]: 0+
+          - paragraph [ref=e101]: Bugs Fixed
+        - generic [ref=e103]:
+          - generic [ref=e104]: 0+
+          - paragraph [ref=e105]: Releases
+        - generic [ref=e107]:
+          - generic [ref=e108]: 0%
+          - paragraph [ref=e109]: Quality Inc.
+    - generic [ref=e111]:
+      - generic [ref=e112]:
+        - paragraph [ref=e113]: Technical Proficiency
+        - heading "Abilities." [level=2] [ref=e114]
+      - generic [ref=e115]:
+        - generic [ref=e117]:
+          - heading "QA & Testing" [level=3] [ref=e123]
+          - generic [ref=e124]:
+            - generic [ref=e125]: Manual Testing
+            - generic [ref=e126]: Functional Testing
+            - generic [ref=e127]: Regression Testing
+            - generic [ref=e128]: API Testing
+            - generic [ref=e129]: Test Case Design
+            - generic [ref=e130]: Test Plan Execution
+            - generic [ref=e131]: Bug Reporting
+            - generic [ref=e132]: Defect Tracking
+            - generic [ref=e133]: Root Cause Analysis
+        - generic [ref=e135]:
+          - heading "Automation" [level=3] [ref=e141]
+          - generic [ref=e142]:
+            - generic [ref=e143]: Selenium
+            - generic [ref=e144]: Test Automation Fundamentals
+            - generic [ref=e145]: API Testing (Postman)
+            - generic [ref=e146]: n8n
+            - generic [ref=e147]: Zapier
+        - generic [ref=e149]:
+          - heading "Full-Stack & Web" [level=3] [ref=e156]
+          - generic [ref=e157]:
+            - generic [ref=e158]: Java
+            - generic [ref=e159]: JavaScript
+            - generic [ref=e160]: REST APIs
+            - generic [ref=e161]: Spring Boot
+            - generic [ref=e162]: HTML
+            - generic [ref=e163]: CSS
+            - generic [ref=e164]: Next.js
+            - generic [ref=e165]: Prisma
+        - generic [ref=e167]:
+          - heading "Tools & Platforms" [level=3] [ref=e172]
+          - generic [ref=e173]:
+            - generic [ref=e174]: Jira
+            - generic [ref=e175]: Postman
+            - generic [ref=e176]: Chrome DevTools
+            - generic [ref=e177]: Git
+            - generic [ref=e178]: GitHub
+            - generic [ref=e179]: Docker
+            - generic [ref=e180]: AWS
+        - generic [ref=e182]:
+          - heading "Databases" [level=3] [ref=e189]
+          - generic [ref=e190]:
+            - generic [ref=e191]: MySQL
+            - generic [ref=e192]: PostgreSQL
+            - generic [ref=e193]: MongoDB
+        - generic [ref=e195]:
+          - heading "Methodologies" [level=3] [ref=e202]
+          - generic [ref=e203]:
+            - generic [ref=e204]: SDLC
+            - generic [ref=e205]: STLC
+            - generic [ref=e206]: Agile/Scrum
+            - generic [ref=e207]: CI/CD Integration
+    - generic [ref=e209]:
+      - generic [ref=e210]:
+        - paragraph [ref=e211]: Professional Trajectory
+        - heading "Experience." [level=2] [ref=e212]
+      - generic [ref=e213]:
+        - generic [ref=e216]:
+          - generic [ref=e217]: Sep 2026 - Present
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - heading "Associate Quality Analyst" [level=3] [ref=e227]
+              - paragraph [ref=e228]: CRM Landing Software Pvt. Ltd.
+            - paragraph [ref=e229]: Driving software quality assurance across CRM application workflows, validating business requirements, and executing end-to-end defect lifecycle management.
+            - list [ref=e230]:
+              - listitem [ref=e231]: Perform software quality assurance activities across application workflows, validating functionality against expected business requirements.
+              - listitem [ref=e235]: Design and execute test scenarios and test cases to identify functional, UI, integration, and regression issues.
+              - listitem [ref=e239]: Perform functional and regression testing across application releases and feature updates.
+              - listitem [ref=e243]: Identify, reproduce, document, and track software defects with clear reproduction steps, expected results, actual results, severity, and supporting evidence.
+              - listitem [ref=e247]: Collaborate with development and product teams during defect investigation, retesting, and issue resolution.
+              - listitem [ref=e251]: Validate application workflows and business rules across CRM-oriented software modules.
+              - listitem [ref=e255]: Apply SDLC, STLC, Agile, and defect lifecycle concepts during day-to-day QA activities.
+              - listitem [ref=e259]: Continue developing technical QA capabilities in API testing, automation, programming, and engineering-oriented quality practices.
+            - generic [ref=e263]:
+              - generic [ref=e264]: QA Testing
+              - generic [ref=e265]: STLC
+              - generic [ref=e266]: SDLC
+              - generic [ref=e267]: Agile
+              - generic [ref=e268]: CRM Testing
+              - generic [ref=e269]: Regression Testing
+              - generic [ref=e270]: Defect Tracking
+              - generic [ref=e271]: API Testing
+        - generic [ref=e274]:
+          - generic [ref=e275]: Mar 2026 - Aug 2026
+          - generic [ref=e283]:
+            - generic [ref=e284]:
+              - heading "Quality Assurance Intern" [level=3] [ref=e285]
+              - paragraph [ref=e286]: Zeepty
+            - paragraph [ref=e287]: Leading quality initiatives for critical web workflows, focusing on automated regression and API reliability.
+            - list [ref=e288]:
+              - listitem [ref=e289]: Designed and executed 50+ test cases for functional and regression scenarios.
+              - listitem [ref=e293]: Identified and logged 30+ defects in Jira, collaborating with devs for resolution.
+              - listitem [ref=e297]: Improved product quality by 20% through rigorous cross-cycle regression testing.
+            - generic [ref=e301]:
+              - generic [ref=e302]: Postman
+              - generic [ref=e303]: Manual Testing
+              - generic [ref=e304]: Jira
+              - generic [ref=e305]: API Testing
+        - generic [ref=e308]:
+          - generic [ref=e309]: May 2025 - Aug 2025
+          - generic [ref=e317]:
+            - generic [ref=e318]:
+              - heading "Java Full-Stack Intern" [level=3] [ref=e319]
+              - paragraph [ref=e320]: Zidio Development
+            - paragraph [ref=e321]: Developed and maintained scalable backend services and RESTful architectures using the Java ecosystem.
+            - list [ref=e322]:
+              - listitem [ref=e323]: Architected REST APIs using Java and Spring Boot for high-performance workflows.
+              - listitem [ref=e327]: Conducted end-to-end manual and API validation to ensure system reliability.
+              - listitem [ref=e331]: Contributed to Agile cycles, bridging development and testing for efficient delivery.
+            - generic [ref=e335]:
+              - generic [ref=e336]: Java
+              - generic [ref=e337]: Spring Boot
+              - generic [ref=e338]: REST APIs
+              - generic [ref=e339]: Agile
+    - generic [ref=e341]:
+      - generic [ref=e342]:
+        - paragraph [ref=e343]: Engineering Portfolio
+        - heading "Archive." [level=2] [ref=e344]
+      - generic [ref=e345]:
+        - generic [ref=e350]:
+          - generic [ref=e351]:
+            - generic [ref=e352]:
+              - generic [ref=e353]: Java
+              - generic [ref=e354]: Spring Boot
+            - generic [ref=e355]: "01"
+          - generic [ref=e356]:
+            - heading "CraveBite" [level=3] [ref=e357]
+            - paragraph [ref=e358]: Scalable backend with comprehensive test suite covering order processing and payment workflows. Features real-time tracking and secure payment integration.
+            - generic [ref=e359]:
+              - link "Case Study" [ref=e360] [cursor=pointer]:
+                - /url: /project/1
+              - link [ref=e361] [cursor=pointer]:
+                - /url: https://github.com/ShreyanshJain105/cravebite-frontend
+        - generic [ref=e368]:
+          - generic [ref=e369]:
+            - generic [ref=e370]:
+              - generic [ref=e371]: Java
+              - generic [ref=e372]: Spring Boot
+            - generic [ref=e373]: "02"
+          - generic [ref=e374]:
+            - heading "JobTrek" [level=3] [ref=e375]
+            - paragraph [ref=e376]: Full-stack application with end-to-end testing and API validation using Postman. JWT-based authentication with role-based access control.
+            - generic [ref=e377]:
+              - link "Case Study" [ref=e378] [cursor=pointer]:
+                - /url: /project/2
+              - link [ref=e379] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e386]:
+          - generic [ref=e387]:
+            - generic [ref=e388]:
+              - generic [ref=e389]: Python
+              - generic [ref=e390]: Flask
+            - generic [ref=e391]: "03"
+          - generic [ref=e392]:
+            - heading "SpendWise" [level=3] [ref=e393]
+            - paragraph [ref=e394]: Finance tracking app with authentication debugging and dependency optimization. Clean dashboard for income/expense management.
+            - generic [ref=e395]:
+              - link "Case Study" [ref=e396] [cursor=pointer]:
+                - /url: /project/3
+              - link [ref=e397] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e404]:
+          - generic [ref=e405]:
+            - generic [ref=e406]:
+              - generic [ref=e407]: Next.js
+              - generic [ref=e408]: Express.js
+            - generic [ref=e409]: "04"
+          - generic [ref=e410]:
+            - heading "ScanServe" [level=3] [ref=e411]
+            - paragraph [ref=e412]: A smart digital ordering platform that allows customers to scan QR codes and place orders directly from their devices, streamlining restaurant operations.
+            - generic [ref=e413]:
+              - link "Case Study" [ref=e414] [cursor=pointer]:
+                - /url: /project/4
+              - link [ref=e415] [cursor=pointer]:
+                - /url: https://github.com/ShreyanshJain105/scanserve
+    - generic [ref=e419]:
+      - generic [ref=e420]:
+        - paragraph [ref=e421]: Learning & Accomplishments
+        - heading "Recognition." [level=2] [ref=e422]
+      - generic [ref=e423]:
+        - generic [ref=e425]:
+          - heading "Generative AI Certification" [level=4] [ref=e435]
+          - paragraph [ref=e436]: Google Gen AI Academy
+        - generic [ref=e438]:
+          - heading "Claude with Anthropic API" [level=4] [ref=e443]
+          - paragraph [ref=e444]: Anthropic – AI Integration
+        - generic [ref=e446]:
+          - heading "Getting Started with Storage" [level=4] [ref=e450]
+          - paragraph [ref=e451]: AWS Educate
+        - generic [ref=e453]:
+          - heading "Docker Fundamentals" [level=4] [ref=e459]
+          - paragraph [ref=e460]: Docker Inc.
+      - generic [ref=e461]:
+        - generic [ref=e471]:
+          - heading "Google Cloud Gen AI Hackathon 2025" [level=4] [ref=e472]
+          - paragraph [ref=e473]: Participated among 270K+ developers worldwide
+        - generic [ref=e483]:
+          - heading "3rd Position — CU Rajasthan Hackathon" [level=4] [ref=e484]
+          - paragraph [ref=e485]: Central University Rajasthan Inter-College Hackathon
+    - generic [ref=e488]:
+      - generic [ref=e489]:
+        - paragraph [ref=e490]: Education & Milestones
+        - heading "Academic Path." [level=2] [ref=e491]
+      - generic [ref=e492]:
+        - generic [ref=e500]:
+          - generic [ref=e501]:
+            - generic [ref=e502]:
+              - heading "B.Tech in Computer Science Engineering" [level=3] [ref=e503]
+              - paragraph [ref=e504]: Poornima University, Jaipur
+            - generic [ref=e505]: 2023 - 2027
+          - paragraph [ref=e508]: Focusing on Software Engineering, Data Structures, and Quality Assurance methodologies.
+          - generic [ref=e509]:
+            - generic [ref=e510]: Jaipur, Rajasthan
+            - generic [ref=e514]:
+              - generic [ref=e515]: "Result:"
+              - text: 8.13 CGPA
+        - generic [ref=e523]:
+          - generic [ref=e524]:
+            - generic [ref=e525]:
+              - heading "Senior Secondary (PCM)" [level=3] [ref=e526]
+              - paragraph [ref=e527]: Govt Sr Sec Maharawal School
+            - generic [ref=e528]: 2022 - 2023
+          - paragraph [ref=e531]: Completed Higher Secondary education with a focus on Physics, Chemistry, and Mathematics.
+          - generic [ref=e532]:
+            - generic [ref=e533]: Dungarpur, Rajasthan
+            - generic [ref=e537]:
+              - generic [ref=e538]: "Result:"
+              - text: 73.49%
+    - generic [ref=e540]:
+      - generic [ref=e541]:
+        - paragraph [ref=e542]: Engineering Feedback
+        - heading "Validation." [level=2] [ref=e543]
+      - generic [ref=e545]:
+        - generic [ref=e665]:
+          - paragraph [ref=e670]: “Shreyansh's full-stack capabilities combined with his QA expertise make him a rare talent. He doesn't just find bugs — he understands the root cause and suggests actionable fixes.”
+          - generic [ref=e671]:
+            - paragraph [ref=e672]: Tech Lead
+            - paragraph [ref=e673]: Engineering Manager / Zeepty
+        - generic [ref=e555]:
+          - button [ref=e556] [cursor=pointer]
+          - generic [ref=e559]:
+            - button [ref=e560] [cursor=pointer]
+            - button [ref=e561] [cursor=pointer]
+            - button [ref=e562] [cursor=pointer]
+          - button [ref=e563] [cursor=pointer]
+    - generic [ref=e567]:
+      - generic [ref=e568]:
+        - paragraph [ref=e569]: Initiate Collaboration
+        - heading "Contact." [level=2] [ref=e570]
+      - generic [ref=e573]:
+        - generic [ref=e574]:
+          - heading "Let's build quality together." [level=3] [ref=e575]
+          - paragraph [ref=e576]: I'm available for engineering roles and technical projects. Reach out to discuss how we can elevate your software quality.
+        - generic [ref=e577]:
+          - generic [ref=e583]:
+            - paragraph [ref=e584]: Email
+            - link "shreyanshjainwork12@gmail.com" [ref=e585] [cursor=pointer]:
+              - /url: mailto:shreyanshjainwork12@gmail.com
+          - generic [ref=e590]:
+            - paragraph [ref=e591]: Phone
+            - link "+91-8875363677" [ref=e592] [cursor=pointer]:
+              - /url: tel:+918875363677
+          - generic [ref=e598]:
+            - paragraph [ref=e599]: Location
+            - paragraph [ref=e600]: Jaipur, Rajasthan, India
+  - contentinfo [ref=e601]:
+    - generic [ref=e602]:
+      - generic [ref=e603]:
+        - generic [ref=e604]:
+          - link "Shreyansh.dev" [ref=e605] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e606]: Software Engineer specializing in Quality Assurance and Full-Stack development. Crafting robust digital experiences with technical precision.
+        - generic [ref=e607]:
+          - generic [ref=e608]:
+            - heading "Navigation" [level=4] [ref=e609]
+            - list [ref=e610]:
+              - listitem [ref=e611]:
+                - button "Work" [ref=e612] [cursor=pointer]
+              - listitem [ref=e613]:
+                - button "About" [ref=e614] [cursor=pointer]
+              - listitem [ref=e615]:
+                - button "Services" [ref=e616] [cursor=pointer]
+              - listitem [ref=e617]:
+                - button "Experience" [ref=e618] [cursor=pointer]
+          - generic [ref=e619]:
+            - heading "Connect" [level=4] [ref=e620]
+            - list [ref=e621]:
+              - listitem [ref=e622]:
+                - link "LinkedIn" [ref=e623] [cursor=pointer]:
+                  - /url: https://linkedin.com/in/shreyanshjain1206
+              - listitem [ref=e626]:
+                - link "GitHub" [ref=e627] [cursor=pointer]:
+                  - /url: https://github.com/ShreyanshJain105
+              - listitem [ref=e630]:
+                - link "Twitter" [ref=e631] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e634]:
+                - link "Email" [ref=e635] [cursor=pointer]:
+                  - /url: mailto:shreyanshjainwork12@gmail.com
+      - generic [ref=e639]:
+        - generic [ref=e640]:
+          - generic [ref=e641]: Dockerized
+          - generic [ref=e646]: CI/CD Enabled
+        - paragraph [ref=e652]: © 2026 Shreyansh Jain. Made with Jaipur, IN.
+  - button "Back to top" [ref=e674] [cursor=pointer]

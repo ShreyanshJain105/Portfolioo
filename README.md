@@ -1,8 +1,8 @@
 <div align="center">
-  <h3 align="center">Shreyansh Jain - Engineering Portfolio</h3>
+  <h3 align="center">Shreyansh Jain - Software QA Engineer & SDET Portfolio</h3>
 
   <p align="center">
-    A high-fidelity, production-grade portfolio application showcasing professional experience, technical competencies, and engineering standards.
+    A high-fidelity, production-grade portfolio application showcasing professional QA experience, automation competencies, and engineering standards.
     <br />
     <a href="https://github.com/ShreyanshJain105/Portfolioo"><strong>Explore the repository »</strong></a>
     <br />
@@ -17,9 +17,9 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#features">Features</a></li>
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#cicd-pipelines">CI/CD Pipelines</a></li>
     <li><a href="#project-structure">Project Structure</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -27,21 +27,24 @@
 
 ## 📝 About The Project
 
-This repository contains the source code for a modern, responsive, and performance-optimized personal portfolio. Built with scalable architecture in mind, it adheres to enterprise-level coding standards and utilizes a robust tech stack to deliver a premium user experience.
+This repository contains the source code for a modern, responsive, and performance-optimized personal portfolio tailored specifically for a Software Quality Assurance Engineer and SDET. 
 
-Key architectural highlights:
-* **Component-Driven UI:** Modular React components for maximum reusability and maintainability.
-* **Fluid Animations:** Complex, hardware-accelerated animations using Framer Motion.
-* **Containerization:** Fully Dockerized for environment parity and seamless deployments.
-* **Automated CI/CD:** Integrated pipelines (Jenkins & GitHub Actions) for automated testing, building, and deployment.
+The application is built to communicate testing expertise across multiple domains including Web, Mobile, REST APIs, AI Voice Agents, Chatbots, CRM Platforms, E-commerce, and Recruitment Portals. It utilizes a robust, premium tech stack to deliver a stunning user experience with advanced 3D interactions and flawless dark/light mode integration.
+
+### ✨ Features
+* **Multi-Page Architecture:** Dedicated routes for Expertise, Domains, Experience, Case Studies, Services, and Contact.
+* **Premium UI/UX:** Advanced 3D hover effects, scroll-reveals, and gradient meshes powered by Framer Motion.
+* **Theme System:** Fully integrated CSS variable-based Dark and Light mode toggle with system preference detection and local storage persistence.
+* **QA-Centric Design:** Custom components like Defect Lifecycles, QA Dashboards, and Interactive Bug Showcases.
+* **Modern Tooling:** Built on React 19, Vite, Tailwind CSS v4, and React Router v7.
 
 ### 🛠 Built With
 
-* **Framework:** React.js + Vite
+* **Framework:** React.js 19 + Vite
+* **Routing:** React Router v7
+* **Styling:** Tailwind CSS v4 (with custom CSS variables for theming)
 * **Animation:** Framer Motion
-* **Icons:** Lucide React
-* **Containerization:** Docker & Docker Compose
-* **CI/CD:** Jenkins, GitHub Actions
+* **Icons:** Lucide React & React Icons
 * **Code Quality:** ESLint
 
 ---
@@ -57,7 +60,6 @@ To get a local copy up and running, follow these simple steps.
   ```sh
   npm install npm@latest -g
   ```
-* Docker (for containerized setup)
 
 ### Local Development
 
@@ -73,6 +75,7 @@ To get a local copy up and running, follow these simple steps.
    ```sh
    npm run dev
    ```
+4. Access the application at `http://localhost:5173`
 
 ### Docker Setup
 
@@ -90,38 +93,19 @@ To run the application in an isolated container environment using the production
 
 ---
 
-## ⚙️ CI/CD Pipelines
-
-This project is configured with dual pipeline support for enterprise flexibility:
-
-### 1. Jenkins Pipeline (`Jenkinsfile`)
-Automates the build process:
-* **Code Checkout:** Pulls the latest code.
-* **Linting & Testing:** Enforces code quality via ESLint.
-* **Docker Build:** Compiles the React app via multi-stage Dockerfile.
-* **Image Push:** Securely publishes the artifact to Docker Hub.
-
-### 2. GitHub Actions (`.github/workflows/deploy.yml`)
-Provides a seamless serverless workflow:
-* **Linting & Build:** Validates code integrity on every push to `main`.
-* **Container Registry:** Builds and pushes Docker images automatically.
-* **Vercel Deployment:** Automatically handles production hosting via Vercel integration.
-
----
-
 ## 🏗 Project Structure
 
 ```text
-├── .github/workflows/   # GitHub Actions CI/CD configs
-├── public/              # Static assets (images, icons)
+├── public/              # Static assets (images, resumes)
 ├── src/                 # Source code
-│   ├── components/      # Reusable React components
-│   ├── data/            # Static data structures (JSON/JS)
-│   ├── hooks/           # Custom React hooks
-│   └── index.css        # Global styles & design tokens
+│   ├── components/      # Reusable React components (Navbar, Footer, UI elements)
+│   ├── pages/           # Route-level components (Home, Case Studies, etc.)
+│   ├── hooks/           # Custom React hooks (useTheme, useScrollSpy)
+│   ├── index.css        # Global styles & theme variables
+│   └── main.jsx         # Application entry point
 ├── Dockerfile           # Multi-stage Docker build config
 ├── Jenkinsfile          # Jenkins CI pipeline
-├── docker-compose.yml   # Local orchestration
+├── tailwind.config.js   # Tailwind configuration
 └── vite.config.js       # Vite configuration
 ```
 
@@ -134,5 +118,5 @@ Shreyansh Jain - shreyanshjainwork12@gmail.com
 Project Link: [https://github.com/ShreyanshJain105/Portfolioo](https://github.com/ShreyanshJain105/Portfolioo)
 
 <p align="center">
-  <i>Developed with focus on code quality, scalability, and performance.</i>
+  <i>Developed with a focus on code quality, scalability, and performance.</i>
 </p>
